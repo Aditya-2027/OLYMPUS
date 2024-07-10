@@ -1,6 +1,5 @@
 /* styles.css */
 
-/* Basic styling */
 body {
     font-family: Bradley Hand ITC, Comic Sans MS, Freestyle Script, Kristen ITC, Ink Free;
     background-color: #0e0758;
@@ -62,12 +61,10 @@ p {
     color: #ffffff;
 }
 
-/* Styling for the Projects section */
 .project {
     margin: 20px 0;
 }
 
-/* Footer styling */
 footer {
     background-color: #00fbff;
     font-size: large;
@@ -96,7 +93,6 @@ footer {
     color: #fff;
 }
 
-/* Dropdown Button */
 .dropbtn {
   background-color: #0e0758;
   color: white;
@@ -105,13 +101,11 @@ footer {
   border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -121,7 +115,6 @@ footer {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
