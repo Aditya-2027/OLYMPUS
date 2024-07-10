@@ -1,0 +1,145 @@
+/* styles.css */
+
+/* Basic styling */
+body {
+    font-family: Bradley Hand ITC, Comic Sans MS, Freestyle Script, Kristen ITC, Ink Free;
+    background-color: #0e0758;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+}
+
+header {
+    background-color: #cea81e;
+    color: #fff;
+    text-align: center;
+    font-size: x-large ;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(193, 193, 193);
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    font-size: x-large;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+button {
+    font-size: large;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+div {
+    padding: 20px;
+    font-size: larger;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: gold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h3 {
+    color: darkgray;
+    font-size: x-large;
+}
+
+p {
+    color: #ffffff;
+}
+
+/* Styling for the Projects section */
+.project {
+    margin: 20px 0;
+}
+
+/* Footer styling */
+footer {
+    background-color: #00fbff;
+    font-size: large;
+    text-align: center;
+    padding: 10px 0;
+}
+.myimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutmeheading{
+    display: flex;
+    align-items: center;
+}
+.myself{
+    display: flex;
+    align-items: center;
+
+}
+.myself p{
+    text-align: center;
+}
+
+.contactFormContainer {
+    color: #fff;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #0e0758;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+button {
+    background-color: #0b768e; 
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

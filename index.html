@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLYMPUS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <div class="dropdown">
+            <button class="dropbtn">MENU</button>
+            <div class="dropdown-content">
+              <a href="#About">About Me</a>
+              <a href="#education">Education</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+              <button id="showMessageButton">Notification</button>
+            </div>
+          </div>
+    </nav>
+
+    <div id="About">
+        <div class="aboutmeheading"><h2><b><u>About Me</u></b></h2></div>
+        <div class="myimg"><img 
+        src="Aditya N (2023).jpg"
+        alt="Image of Aditya N"
+        ></div>
+        <div class="myself"><p><b> Aditya N. </b></p></div>
+        <div><p>
+            I am in my 2nd year of ECE at Model Engineering College, Thrikkakkara.
+            My hobbies are listening to music and reading anime-related novels, etc.
+            My dream is to build my very own custom gaming PC.
+        </p></div>
+    </div>
+
+    <div id="education">
+        <div><h2><b><u>Education</u></b></h2>
+        <h3><b>Senior Secondary (Class 10)</b></h3>
+        <p><b>Institute : </b><a href="https://vedavyasavidyalayam.org/" target="_blank">Vedavyasa Vidyalayam</a></p>
+        <p><b>Mark Scored : </b>400/500</p>
+        <p><b>Percentage : </b>80%</p>
+        <p><b>Grade : </b>B1</p>
+        <p><b>Year of Pass : </b>2021</p></div>
+
+        <div><h3><b>Higher Senior Secondary (Class 12)</b></h3>
+        <p><b>Institute : </b><a href="https://saps.ac.in/" target="_blank">St. Antony's Public School</a></p>
+        <p><b>Total Mark Scored : </b>411/500</p>
+        <p><b>Percentage : </b>82.2%</p>
+        <p><b>Grade : </b>A2</p>
+        <p><b>Year of Pass : </b>2023</p></div>
+        
+        <div><h3><b>College</b></h3>
+        <p><b>Institute : </b><a href="https://www.mec.ac.in/" target="_blank">Model Engineering College</a></p>
+        <p><b>Branch : </b>Electronics and Communication Engineering (ECE)</p>
+        <p><b>Current Year : </b>2nd</p>
+        <p><b>Current Semester : </b>III</p></div>
+    </div>
+
+    <div id="projects">
+        <h2><b><u>Projects</u></b></h2>
+        <p>No Projects Done so far.</p>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2><b><u>Contact</u></b></h2>
+        <div><form action="https://www.instagram.com/h3lld3vil/" target="_blank">
+            <button class="half">Instagram</button>
+        </form></div>
+        <div><form action="https://github.com/Aditya-2027" target="_blank">
+            <button class="half">Github</button>
+        </form></div>
+        <div><form action="https://twitter.com/AdityaN149" target="_blank">
+            <button class="half">Twitter</button>
+        </form></div>
+        <div><form action="https://www.linkedin.com/in/adityan2027/" target="_blank">
+            <button class="half">Linkedin</button>
+        </form></div>
+        
+        <div class="contactFormContainer">
+            <p>Contact me using the form below:</p>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
