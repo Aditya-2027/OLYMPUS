@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-    font-family: Bradley Hand ITC, Comic Sans MS, Freestyle Script, Kristen ITC, Ink Free;
+    font-family: Cascadia Code;
     background-color: #0e0758;
     margin: 0;
     padding: 0;
@@ -50,6 +50,7 @@ h2 {
     color: gold;
     font-size: xx-large;
     text-align: center;
+    font-style: italic;
 }
 
 h3 {
