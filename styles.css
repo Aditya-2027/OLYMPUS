@@ -16,28 +16,6 @@ header {
     padding: 20px 0;
 }
 
-nav ul {
-    list-style-type: none;
-    background-color: rgb(193, 193, 193);
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    font-size: x-large;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-button {
-    font-size: large;
-}
-
-nav a {
-    text-decoration: none;
-    color: #000000;
-}
-
 div {
     padding: 20px;
     font-size: larger;
